@@ -3,9 +3,10 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Raleway:wght@500&display=swap');
+
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #27566D   ;
+  --primary-color: #396E94   ;
   --secondary-color: #BACBD1 ;
   --accent1-color: #DCAC44;
   --accent2-color: #666666;
