@@ -1,12 +1,14 @@
-#content {
-    max-width: 1400px;
-    
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
+#content{
+    max-width: 800px;
+    background-color: white;
+    margin: 0 auto;
 }
 body {
     background-color: white;
 }
 a {
-    background-color: rgb(217, 191, 201);
+    background-color: #87a5a3;
     color: #000;
     text-decoration: none;
     padding: 10px;
@@ -14,7 +16,7 @@ a {
     text-align: center;
 }
 a:hover {
-    background-color: darkgrey;
+    background-color: #436b69;
     color: white;
 }
 nav {
@@ -22,20 +24,27 @@ nav {
     justify-content: center;
 }
 h1 {
+    font-family: "merriweather";
     font-size: 1.5em;
     text-align: center;
+    padding: 30px;
 }
 img {
     width: 60%;
     text-align: center;
     display: block;
-    margin:0 auto;
+    margin: 30px auto;
+    border: 3px solid #87a5a3;
+    padding: 3px;
+    box-sizing: border-box;
 }
 p {
     text-align: center;
-    width: 40%;
+    width: 50%;
     margin: 10px auto;
     padding: 10px;
+    box-sizing: border-box;
+    font-family: "montserrat";
 }
 #primary {
     background-color: white;
@@ -46,6 +55,6 @@ p {
 footer p {
     width: 100%;
     text-align: center;
-    background-color: rgb(217, 191, 201);
+    background-color: #87a5a3;
     color: #000;
 }
