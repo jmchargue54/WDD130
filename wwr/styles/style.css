@@ -27,6 +27,7 @@ nav a:hover {
     color: #27566D;
     font-family: "Amatic SC", "Mulish", sans-serif ;
     font-size: 2em;
+    text-align: center;
     margin-top: 10px;
 }
 body{
@@ -77,6 +78,9 @@ header {
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+}
+.msg-img{
+    margin: 100px 0;
 }
 .msg{
     background-color: #DCAC44;
