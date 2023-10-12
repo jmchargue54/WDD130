@@ -11,6 +11,7 @@
 }
 nav a{
     text-align: center;
+    font-size: 1em;
     color: #BACBD1;
     text-decoration: none;
     font-family: "Amatic SC", "Mulish", sans-serif;
@@ -29,6 +30,7 @@ nav a:hover {
     font-size: 2em;
     text-align: center;
     margin-top: 10px;
+    font-weight: bolder;
 }
 body{
     background-color: #BACBD1;
@@ -89,13 +91,14 @@ header {
 }
 .msg h2{
     color: #27566D;
-
+    font-size: 1.6em;
 }
 .msg p{
     color: #27566D;
     font-family: "Rajdahani", "Mulish", sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
+    font-weight: bold;
 }
 .join{
     background-color: #27566D;
