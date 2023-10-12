@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&display=swap');
 #content{
     max-width: 800px;
     background-color: white;
@@ -22,29 +22,33 @@ a:hover {
 nav {
     display: flex;
     justify-content: center;
+    font-family: "Lora";
 }
 h1 {
     font-family: "merriweather";
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+    margin: 40px;
 }
 img {
     width: 60%;
     text-align: center;
     display: block;
-    margin: 30px auto;
+    margin: 10px auto;
     border: 3px solid #87a5a3;
     padding: 3px;
     box-sizing: border-box;
 }
 p {
+    font-size: 1em;
     text-align: center;
-    width: 50%;
-    margin: 10px auto;
+    width: 60%;
+    margin: 20px auto;
     padding: 10px;
     box-sizing: border-box;
-    font-family: "montserrat";
+    font-family: "Lora";
+    background-color: #c8dddb;
 }
 #primary {
     background-color: white;
@@ -57,4 +61,7 @@ footer p {
     text-align: center;
     background-color: #87a5a3;
     color: #000;
+    font-family: "merriweather";
+    padding: 15px;
+    margin-top: 60px;
 }

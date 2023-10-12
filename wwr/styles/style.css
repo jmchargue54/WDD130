@@ -1,41 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Mulish&family=Rajdhani:wght@300&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-body{
-    background-color: #BACBD1;
-} 
-header {
-    background-color: #27566D;
-}
-.home-title{
-    color: #27566D;
-}
-.icon{
-    width: 80px;
-}
-.card-img{
-    width: 500px;
-}
-#hero-img{
-    width: 100%;
-}
 .logo{
     width: 80px;  
+}
+#logo_link{
+    padding-top: 5px;
 }
 nav a{
     text-align: center;
     color: #BACBD1;
     text-decoration: none;
+    font-family: "Amatic SC", "Mulish", sans-serif;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #DCAC44;
     color: #27566D;
 }
+#hero-img{
+    width: 100%;
+}
+.home-title{
+    color: #27566D;
+    font-family: "Amatic SC", "Mulish", sans-serif ;
+    font-size: 2em;
+    margin-top: 10px;
+}
+body{
+    background-color: #BACBD1;
+    font-family: "Rajdahani", "Mulish", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+} 
+#hero-msgh1{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
+}
+h2{
+    margin: 0;
+}
+header {
+    background-color: #27566D;
+}
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+.card-img{
+    width: 500px;
+    border: 10px solid #27566D;
+}
+.button-box{
+    text-align: center;
+}
 .book{
     background-color: #27566D;
     color: #BACBD1;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #DCAC44;
@@ -44,19 +75,33 @@ nav a:hover {
 #background{
     background-color: #27566D;
 }
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
 .msg{
     background-color: #DCAC44;
+    font-family: "Amatic SC", "Mulish", sans-serif;
+    padding: 35px;
 }
 .msg h2{
     color: #27566D;
+
 }
 .msg p{
     color: #27566D;
+    font-family: "Rajdahani", "Mulish", sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .join{
     background-color: #27566D;
     color: #DCAC44;
     text-decoration: none;
+    font-family: "Mulish", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover{
     background-color: #BACBD1;
@@ -65,10 +110,11 @@ nav a:hover {
 footer{
     background-color: #27566D;
     color: #BACBD1;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
-    font-size: 1.2em;
-    
+    font-size: 1em;
 }
 footer a{
     color: #BACBD1;
@@ -78,15 +124,6 @@ footer a:hover{
     color: #DCAC44;
     text-decoration: underline;
 }
-#hero-msgh1{
-    text-align: center;
-}
-#hero-msg h4{
-    text-align: center;
-}
-.button-box{
-    text-align: center;
-}
 main section{
     text-align: center;
 }
@@ -94,4 +131,7 @@ header {
 }
 #background{
     height: 735px;
+}
+main section img{
+    box-sizing: border-box;
 }
