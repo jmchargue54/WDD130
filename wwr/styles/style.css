@@ -3,11 +3,18 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+header {
+    background-color: #27566D;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
 .logo{
     width: 80px;  
 }
 #logo_link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 nav a{
     text-align: center;
@@ -16,6 +23,9 @@ nav a{
     text-decoration: none;
     font-family: "Amatic SC", "Mulish", sans-serif;
     padding: 35px;
+    display: flex-end;
+    justify-content: space-around;
+    align-self: center;
 }
 nav a:hover {
     background-color: #DCAC44;
@@ -48,9 +58,7 @@ body{
 h2{
     margin: 0;
 }
-header {
-    background-color: #27566D;
-}
+
 .icon{
     width: 80px;
     padding-top: 10px;
