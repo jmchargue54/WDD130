@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #081736;
-  --secondary-color: #3E5D65;
+  --primary-color: #183E53;
+  --secondary-color: #62929E;
   --accent1-color: #B1C9C8;
-  --accent2-color: #410610;
+  --accent2-color: #500303;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Montserrat";
@@ -20,7 +20,7 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #183E53; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #62929E; /* paragraph text on a colored background */ 
   --paragraph-background-color: #500303;
-  --nav-link-color: #62929E;
+  --nav-link-color: #B1C9C8;
   --nav-background-color: #183E53;
   --nav-hover-link-color: #410610;
   --nav-hover-background-color: #62929E;
