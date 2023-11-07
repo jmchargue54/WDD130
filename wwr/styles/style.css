@@ -205,6 +205,37 @@ main section{
 main section img{
     box-sizing: border-box;
 }
+
+/* rivers page css */
+.rivers-grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top
+}
+.river-img{
+    width: 500px;
+    border: 10px solid #27566D;
+}
+.idaho-card{
+    width: 400px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.idaho-card h2{
+    grid-column: 3/8;
+    grid-row: 1/2;
+}
+.utah-card{
+    width: 400px;
+    grid-column: 5/8;
+    grid-row: 2/3;
+}
+.arizona-card{
+    width: 400px;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
