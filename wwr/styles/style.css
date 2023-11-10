@@ -299,15 +299,6 @@ main section img{
     background-color: #DCAC44;
     color: #27566D;
 }
-.idaho-book{
-    
-}
-.utah-book{
-    
-}
-.arizona-book{
-    
-}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
