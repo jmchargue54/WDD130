@@ -224,7 +224,7 @@ main section img{
     font-weight: bolder;
 }
 .river-img{
-    width: 550px;
+    width: 100%;
     border: 10px solid #27566D;
 }
 .idaho-card{
@@ -290,8 +290,10 @@ main section img{
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
-    margin-top: 50px;
+    margin: 15px;
+    margin-top: 20px;
     border-radius: 5px;
+    display: inline-block;
 }
 .idaho-book:hover, .utah-book:hover, .arizona-book:hover{
     background-color: #DCAC44;
