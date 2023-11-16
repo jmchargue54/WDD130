@@ -223,27 +223,33 @@ main section img{
     margin-top: 5px;
     font-weight: bolder;
 }
-.river-img{
+/* .river-img{
     width: 100%;
     border: 10px solid #27566D;
-}
-.idaho-card{
+} */
+.idaho-img{
     width: auto;
     grid-column: 1/4;
     grid-row: 2/3;
     margin: 10px;
+    width: 95%;
+    border: 10px solid #27566D;
 }
-.utah-card{
+.utah-img{
     width: auto;
     grid-column: 5/8;
     grid-row: 3/4;
     margin: 10px;
+    width: 95%;
+    border: 10px solid #27566D;
 }
-.arizona-card{
+.arizona-img{
     width: auto;
     grid-column: 1/4;
     grid-row: 4/5;
     margin: 10px;
+    width: 95%;
+    border: 10px solid #27566D;
 }
 .idaho-info h2, .utah-info h2, .arizona-info h2{
     color: #27566D;
