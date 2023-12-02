@@ -169,7 +169,6 @@ h3{
 }    
 .location img{   
     border: 3px solid #500303;
-    width: 100%;
 }
 .hours{
     grid-column: 2/3;
