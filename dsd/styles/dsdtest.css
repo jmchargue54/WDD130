@@ -2,7 +2,7 @@
 #content {
     display: grid;
     grid-template-columns: 250px 1fr;
-    grid-template-rows: 1fr 2fr; 
+    grid-template-rows: .5fr 2fr; 
     width: auto;
     max-width: 1600px;
 }
@@ -15,22 +15,24 @@ main{
 }
 .logo{
     width: 230px;
-    margin-bottom: 20px;
+    padding: 11px;
 }
 nav {
     grid-column: 1/2;
     grid-row: 1/5;
     background-color: #183E53;
+    position: relative;
 }
-.social{
+#social{
     grid-column: 1/2;
     grid-row: 3/4;
+    position: absolute;
+    bottom: 155px;
 }
 .info{
     grid-column: 1/2;
     grid-row: 3;
     color: #BACBD1;
-    margin-top: 1130px;
 }
 .info h2{
     font-size: 19px;
@@ -54,11 +56,11 @@ nav {
     color: #500303;
 }
 .fade{
-    width: 100%;
+    height: 100%;
 }
 #fade-img{
     grid-column: 1/2;
-    grid-row: 1/7;
+    grid-row: 1/8;
     z-index: 2;
 }
 .fb, .tw, .in{
@@ -66,20 +68,22 @@ nav {
     margin: 5px;
     text-decoration: none;
 }
-#smile-img{
-    width: 92%;
-}
 #hero-img{
+    height: 100%;
     z-index: -1;
-    grid-column: 1/3;
-    grid-row: 1/7;
+    grid-column: 2/3;
+    grid-row: 1/8;
+}
+#smile-img{
+    height: 100%;
+;
 }
 #header{
     grid-column: 2/4;
     grid-row: 1/2;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 80px);
+    grid-template-rows: repeat(7, 80px);
 }
 #header-msg{
     color: #BACBD1;
@@ -88,16 +92,18 @@ nav {
     z-index: 3;
 }
 .header-title{
-    font-size: 70px;
+    font-size: 78px;
     text-align: center;
+    margin-top: 20px;
 }
 #dr{
     color: #BACBD1;
     font-size: 35px;
     grid-column: 1/2;
-    grid-row: 4/5;
+    grid-row: 3/5;
     z-index: 4;
     margin-left: 30px;
+    margin-top: 60px;
 }
 #care{
     color: #BACBD1;
@@ -109,9 +115,10 @@ nav {
 }
 #header-icons{
     grid-column: 1/2;
-    grid-row: 6/7;
+    grid-row: 5/7;
     z-index: 3;
-    margin-left: 11px;
+    margin-left: 30px;
+    margin-top: 55px;
 }
 #icon1, #icon2, #icon3, #icon4, #icon5{
     width: 17%;
@@ -121,7 +128,7 @@ nav {
     grid-column: 1/2;
     grid-row: 7/8;
     margin-left: 30px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 #button-box a{
     background-color: #183E53;
@@ -137,6 +144,7 @@ nav {
     color: #500303;
     font-weight: bold;
 }
+                                                /* welcome grid */
 h2{
     font-family: "Mulish", Helvetica, sans-serif;
 }
@@ -151,7 +159,7 @@ h3{
     font-size: 50px;
     color: #500303;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .welcome h3{
     color: #500303;
@@ -173,6 +181,7 @@ h3{
 .hours{
     grid-column: 2/3;
     grid-row: 2/3;
+    margin: 30px;
 }
 .hours img{
     width: 100%;
@@ -180,6 +189,7 @@ h3{
 footer h2{
     font-size: 30px;
     margin-right: 50px;
+    align-items: center;
 }
 footer h3{
     font-size: 20px;
@@ -200,22 +210,32 @@ footer{
     padding: 25px 50px;
     margin-top: 130px;
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
+    z-index: 1;
 }
-/* reviews css */
+                             /* reviews css */
 #reviews{
     grid-column: 1/3;
     grid-row: 1/4;
     display: grid;
-    grid-template-columns: 1fr;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+#headoffice-img{
+    z-index: -1;
+    grid-column: 2/3;
+    grid-row: 1/8;
+}
+#office-img{
+    height: 100%;
 }
 #reviews h1{
     color: #500303;
     grid-column: 1/3;
     text-align: center;
     font-size: 50px;
-    margin-top: 100px;
+    margin-top: 60px;
+    font-family: "Mulish", Helvetica, sans-serif;
 }
 #reviews h2{
     font-size: 25px;
@@ -224,14 +244,12 @@ footer{
 .one, .two, .three{
     color: #500303;
     border: 3px solid #500303;
-    padding: 5px;
+    padding: 20px;
     text-decoration: none;
     font-size: 17px;
     text-align: left;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     grid-column: 1/3;
 }
 .icon4, .icon5, .icon6{
@@ -244,8 +262,8 @@ footer{
     color: #BACBD1;
     text-decoration: none;
     font-size: 20px;
-    grid-column: 1/2;
-    margin-left: 500px;
+    /* grid-column: 1/3;
+    grid-row: 5/6; */
     padding: 10px 20px;
     border-radius: 5px;
     font-family: "Mulish", Helvetica, sans-serif;
@@ -254,4 +272,112 @@ footer{
     background-color: #62929E;
     color: #500303;
     font-weight: bold;
+}
+#review-box{
+    grid-column: 1/3;
+    grid-row: 5/6;
+    margin-top: 20px;
+    text-align: center;
+}
+                        /* meet css */
+#meet {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .75fr 1fr;
+}
+#headmeet-img{
+    z-index: -1;
+    grid-column: 2/3;
+    grid-row: 1/8;
+}
+#dentist-img{
+    height: 100%;
+}
+#meet h2, h5{
+    font-family: "Mulish", Helvetica, sans-serif;
+}
+#meet h4, h3{
+    font-family: "Monserrat";
+}
+#meet h2{
+    font-size: 50px;
+    color: #183E53;
+    margin-top: 20px;
+}
+#meet h3{
+    font-size: 30px;
+    color: #500303;
+}
+#meet h4{
+    font-size: 24px;
+    font-style: italic;
+    color: #500303;
+}
+#meet h5{
+    font-size: 18px;
+    color: #500303;
+}
+.doctor{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin: 35px;
+}
+.doctor h2{
+    grid-column: 1/3;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+.dr-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 20%;
+    float: left;
+    border: solid 3px #500303;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.doctor h3, h4{
+    margin: 15px;
+}
+.doctor h5{
+    margin-top: 25px;
+}
+.staff{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.staff h2{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    text-align: center;
+}
+.amy-img, .harper-img, .donna-img, .lacey-img{
+    width: 100%;
+    border:solid 3px #500303;
+}
+.amy{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 12px;
+}
+.harper{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 12px;
+}
+.donna{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin: 12px;
+}
+.lacey{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    margin: 12px;
 }
