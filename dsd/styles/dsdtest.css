@@ -57,6 +57,7 @@ nav {
 }
 .fade{
     height: 100%;
+    width: 100%;
 }
 #fade-img{
     grid-column: 1/2;
