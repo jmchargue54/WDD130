@@ -5,6 +5,7 @@
     grid-template-rows: .5fr 2fr; 
     width: auto;
     max-width: 1600px;
+    margin: 0 auto;
 }
 main{
     grid-column: 2/3;
